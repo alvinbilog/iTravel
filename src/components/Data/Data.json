@@ -1,0 +1,30 @@
+[
+  {
+    "id": "001",
+    "alt": "Tourist Place 1",
+    "button": "View Destination",
+    "image": "https://images.unsplash.com/photo-1499363536502-87642509e31b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
+    "name": "Baguio City"
+  },
+  {
+    "id": "003",
+    "alt": "Tourist Place 2",
+    "button": "View Destination",
+    "image": "https://images.pexels.com/photos/2662086/pexels-photo-2662086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "name": "Tagaytay City"
+  },
+  {
+    "id": "004",
+    "alt": "Tourist Place 3",
+    "button": "View Destination",
+    "image": "https://images.pexels.com/photos/3889987/pexels-photo-3889987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "name": "Tagaytay City"
+  },
+  {
+    "id": "005",
+    "alt": "Tourist Place 4",
+    "button": "View Destination",
+    "image": "https://images.unsplash.com/photo-1480548004877-593316be2bd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+    "name": "Tagaytay City"
+  }
+]

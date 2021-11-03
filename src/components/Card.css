@@ -1,0 +1,37 @@
+.Card {
+  width: 50%;
+  height: 350px;
+  background: #f3f3f3;
+  font-size: 30px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: #1a1618;
+}
+.Card .card-container {
+  text-align: center;
+  justify-content: center;
+  padding: 25px;
+}
+.Card p {
+  font-size: 16px;
+  text-align: start;
+}
+.Card h6 {
+  align-items: center;
+}
+.Card img {
+  object-fit: contain;
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+}
+@media screen and (max-width: 960px) {
+  .Card {
+    margin-top: 2rem;
+    display: block;
+    position: relative;
+  }
+}

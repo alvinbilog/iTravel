@@ -1,0 +1,47 @@
+.Choose {
+  margin-top: 4rem;
+  height: 30vh;
+}
+.Choose h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.Choose .choose-container {
+  display: flex;
+  justify-content: space-between;
+}
+.Choose .choose-container .choose-element {
+  width: 20rem;
+  /* border: red solid; */
+  margin: 0 5rem 0 5rem;
+}
+.Choose .choose-container .choose-element .fas,
+.fab {
+  font-size: 1.8rem;
+}
+.fa-globe-americas {
+  color: rgb(10, 120, 194);
+}
+.fa-plane {
+  color: rgb(235, 202, 15);
+}
+.fa-clock {
+  color: rgb(194, 9, 55);
+}
+.fa-cc-visa {
+  color: rgb(9, 175, 59);
+
+  margin-top: -2px;
+}
+@media screen and (max-width: 960px) {
+  .Choose .choose-container {
+    flex-direction: column;
+  }
+  .Choose .choose-container .choose-element {
+    height: 20vh;
+    /* margin: 20px 0 20px 0; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+}

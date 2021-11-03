@@ -1,0 +1,61 @@
+.Offers {
+  top: 10px;
+  position: relative;
+  height: 50vh;
+  margin-bottom: -35rem;
+  /* border: red solid; */
+}
+
+.Offers img {
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+.Offers .offer-container .text-container {
+  position: relative;
+  top: 7rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.Offers .offer-container .text-container p {
+  margin: 1rem 0 1rem 0;
+  font-weight: 300;
+}
+.Offers .offer-container .text-container form input {
+  height: 40px;
+  width: 280px;
+  border-radius: 20px;
+  border-style: none;
+  margin-right: 20px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  padding-inline-start: 22px;
+}
+.Offers .offer-container .text-container form button {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  border-style: none;
+  margin-right: 20px;
+  background-color: #1a1618;
+  color: white;
+  cursor: pointer;
+}
+.Offers .offer-container .text-container form button:hover {
+  border: solid white;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.Footer .copyright-container {
+  flex-direction: column;
+  position: absolute;
+  top: 15rem;
+  text-align: center;
+  color: #1a1618;
+  width: 100%;
+}

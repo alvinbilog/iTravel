@@ -1,0 +1,34 @@
+.Footer {
+  height: 35vh;
+  background-color: white;
+  position: relative;
+  top: 35rem;
+  display: flex;
+  justify-content: center;
+}
+.Footer .footer-container {
+  display: flex;
+  justify-content: center;
+  /* margin: 100px; */
+  margin-top: 50px;
+}
+.Footer .footer-container .logo-container {
+  /* border: solid red; */
+}
+.Footer .footer-container .elem {
+  padding: 15px 20px 15px 20px;
+  /* border: solid blue; */
+  width: 300px;
+}
+.Footer .footer-container p,
+.Footer .footer-container li {
+  /* font-size: 12px;
+  padding: 3px; */
+}
+.Footer ul {
+  list-style: none;
+}
+.Footer .footer-container .logo-container h1 {
+  text-align: start;
+  color: #1a1618;
+}

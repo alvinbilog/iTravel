@@ -1,0 +1,13 @@
+.Testimony {
+  /* display: block; */
+  position: relative;
+  height: 60vh;
+  position: static !important;
+  margin-top: 4rem;
+}
+.Testimony > .carousel {
+  position: static !important;
+}
+.Testimony h1 {
+  text-align: center;
+}

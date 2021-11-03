@@ -1,0 +1,97 @@
+.Trips {
+  height: 60vh;
+  position: relative;
+}
+.Trips h1 {
+  padding-top: 4rem;
+  text-align: center;
+}
+.Trips .trips-container {
+  height: 60vh;
+  text-align: center;
+}
+.Trips .trips-container .trips-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* .Trips .trips-container .trips-element {
+} */
+.Trips .trips-container .trips-element .img-container img {
+  object-fit: contain;
+  padding-top: 2rem;
+  width: auto;
+  height: 50vh;
+  margin: 0 50px 0 50px;
+}
+.Trips .trips-container .trips-element .img-container img:hover {
+  filter: brightness(1.2);
+}
+
+.Trips .trips-container .trips-element .image-text {
+  text-align: center;
+  transform: translateY(-130%);
+  /* z-index: 1; */
+}
+
+.Trips .trips-container .trips-element .img-container .image-text p {
+  color: white;
+  font-size: 12px;
+}
+.Trips .trips-container .trips-element .img-container .image-text p .fas {
+  margin: 15px 0 15px 0;
+}
+.Trips .trips-container .trips-element .img-container .image-text button {
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border: solid #1a1618;
+  background-color: #1a1618;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.Trips .trips-container .trips-element .img-container .image-text button:hover {
+  border: solid white;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+  .Trips {
+    display: block;
+    height: 200vh;
+    min-height: min-content;
+  }
+  .Trips .trips-container .trips-element {
+    flex-direction: column;
+    /* position: absolute; */
+    padding: 1rem;
+  }
+  .Trips .trips-container .trips-element .img-container {
+    margin-bottom: -8rem;
+  }
+  .Trips .trips-container .trips-element .image-text {
+    flex-direction: column;
+    font-size: 14px;
+    /* transform: translateY(-150%); */
+  }
+  .Trips .trips-container .trips-element .image-text p .fas {
+    font-size: 15px;
+    margin: 15px 0 15px 0;
+  }
+  .Trips .trips-container .trips-element .img-container img {
+    object-fit: contain;
+    height: auto;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Trips {
+    display: block;
+    height: 290vh;
+  }
+}
