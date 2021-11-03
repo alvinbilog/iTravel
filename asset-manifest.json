@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/iTravel/static/css/main.859f2d6f.chunk.css",
+    "main.js": "/iTravel/static/js/main.58f79983.chunk.js",
+    "main.js.map": "/iTravel/static/js/main.58f79983.chunk.js.map",
+    "runtime-main.js": "/iTravel/static/js/runtime-main.59008a16.js",
+    "runtime-main.js.map": "/iTravel/static/js/runtime-main.59008a16.js.map",
+    "static/js/2.95591b34.chunk.js": "/iTravel/static/js/2.95591b34.chunk.js",
+    "static/js/2.95591b34.chunk.js.map": "/iTravel/static/js/2.95591b34.chunk.js.map",
+    "index.html": "/iTravel/index.html",
+    "static/css/main.859f2d6f.chunk.css.map": "/iTravel/static/css/main.859f2d6f.chunk.css.map",
+    "static/js/2.95591b34.chunk.js.LICENSE.txt": "/iTravel/static/js/2.95591b34.chunk.js.LICENSE.txt",
+    "static/media/offer.591a1c24.jpg": "/iTravel/static/media/offer.591a1c24.jpg",
+    "static/media/portrait-1.32fadc5e.png": "/iTravel/static/media/portrait-1.32fadc5e.png",
+    "static/media/portrait-2.d2027d4a.png": "/iTravel/static/media/portrait-2.d2027d4a.png",
+    "static/media/portrait-3.5ca833c4.png": "/iTravel/static/media/portrait-3.5ca833c4.png",
+    "static/media/portrait-4.c1aec512.png": "/iTravel/static/media/portrait-4.c1aec512.png",
+    "static/media/portrait-5.1ed09fff.png": "/iTravel/static/media/portrait-5.1ed09fff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59008a16.js",
+    "static/js/2.95591b34.chunk.js",
+    "static/css/main.859f2d6f.chunk.css",
+    "static/js/main.58f79983.chunk.js"
+  ]
+}
